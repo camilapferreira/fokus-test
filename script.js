@@ -7,7 +7,7 @@ const titulo = document.querySelector(".app__title");
 const botoes = document.querySelectorAll(".app__card-button");
 const startPauseBt = document.querySelector("#start-pause");
 const musicaFocoInput = document.querySelector("#alternar-musica");
-let tempoDecorridoEmSegundos = 5;
+let tempoDecorridoEmSegundos = 6;
 let intervalorId = null;
 const musica = new Audio(
   "/Alura/Fokus-projeto-base/sons/luna-rise-part-one.mp3"
